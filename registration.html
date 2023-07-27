@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>WeddingWing registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">   
+    <link rel="stylesheet" href="css/registration.css">
+</head>
+<body>
+  <a href="home.php" class="logo">WeddingWing</a>
+    <form action="registration.php" method="POST">
+        <h3>Registration Here</h3>
+
+        
+        <label for="username">Fist Name</label>
+        <input type="text" placeholder="Fist Name" name="fist_name" required><br><br>
+        <label for="username">last Name</label>
+        <input type="text" placeholder="Last Name" name="last_name" required><br><br>
+        <label for="p_number">Phone Number</label>
+        <input type="text" placeholder="Enter phone-number" name="p_number" required><br><br>
+        <label for="username">Email</label>
+        <input type="email" placeholder="Enter email" name="email" required><br><br>
+        <label for="upassword">Password</label>
+        <input type="password" placeholder="Password" name="upassword" required><br><br>
+        <label for="c_password">Confirm Password</label>
+        <input type="password" placeholder="Confirm Password" name="c_Password" required><br><br>
+
+        <button type="submit" value="submit" name="register">register</button>
+        <label for="create account">Do you have an account?<a href=""> login</a></label>
+    </form>
+</body>
+</html>
